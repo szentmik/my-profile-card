@@ -1,5 +1,4 @@
 body {
-    height: 100vh;
     margin: 0;
     padding: 0;
     background-image: url("assets/background.jpg");
@@ -10,7 +9,6 @@ body {
 
 .content, .links {
     width: 400px;
-    max-width: calc(100vw - 10px);
     background-color: rgba(0, 0, 0, 0.4);
     color: floralwhite;
     border-radius: 20px;
