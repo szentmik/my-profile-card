@@ -8,7 +8,9 @@ body {
 }
 
 .content, .links {
-    width: 400px;
+    margin-top: 20%;
+    width: 300px;
+    max-width: calc(100vw - 20px);
     background-color: rgba(0, 0, 0, 0.4);
     color: floralwhite;
     border-radius: 20px;
@@ -42,7 +44,6 @@ body {
 .content {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20vh;
     padding-bottom: 5px;
 }
 
