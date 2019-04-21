@@ -8,13 +8,13 @@ body {
 }
 
 .content, .links {
-    margin-top: 100px;
     width: 300px;
     max-width: calc(100vw - 20px);
     background-color: rgba(0, 0, 0, 0.4);
     color: floralwhite;
     border-radius: 20px;
     border: 2px solid grey;
+    
 }
 
 .profpic {
@@ -41,10 +41,15 @@ body {
     filter: grayscale(0);
 }
 
+.everything {
+    position: fixed;
+    top: 25%;
+    right: 25%;
+}
+
 .content {
-    margin-left: auto;
-    margin-right: auto;
     padding-bottom: 5px;
+    z-index: 3;
 }
 
 .text {
@@ -56,7 +61,8 @@ body {
 
 .links {
     width: 200px;
-    margin: 15px auto;
+    z-index: 2;
+    margin: 10px auto;
 }
 
 h1, h2 {
